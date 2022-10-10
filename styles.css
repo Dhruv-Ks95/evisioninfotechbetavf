@@ -1,0 +1,269 @@
+body {
+    background-color: #FFFAE7;
+}
+
+/* HEADER */
+/* START */
+.headoptions {
+    position: absolute;
+    right: 1%;
+}
+
+.headlink {
+    color: #201645;
+    transition: 0.5s ease;
+}
+
+.headlink:hover {
+    color: #FF731D;
+    transition-duration: 240ms;
+}
+
+.fix1{
+    background-color:#EAF6F6 ;
+    padding: 1%;
+}
+
+.navheader {
+    width: 100%;
+    background-color: #EAF6F6;
+    position: fixed;
+    height: 4rem;
+    z-index: 2;
+}
+
+/* END */
+
+/* FIRST CAROUSEL */
+.headlinecar {
+    padding-top: 4rem;
+    z-index: -2;
+}
+
+.caropics{
+    height: 35rem;
+}
+
+@media (max-width:700px) {
+    .caropics{
+        height: 20rem;
+    }
+
+}
+
+
+/* About us  */
+.abtusdesc {
+    padding: 2.5%;
+}
+
+/* Amenities */
+.parentdiv{
+    width: 100%;
+    justify-content: center;
+}
+
+
+.magic{
+    transition: 0.5s ease;
+}
+.magic:hover{
+    color: #FF731D;
+    transition-duration: 300ms;
+}
+/* gallery */
+.card{
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
+
+.simplefix{
+    width: 20rem;
+    height: 15rem;
+}
+
+.card-title{
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Training Snapshots */
+.trainingsnaps{
+    height: 40rem;
+}
+@media (max-width:700px) {
+    .trainingsnaps{
+        height: 20rem;
+    }
+
+}
+
+/* Contact us  */
+
+.selfcontainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+form input , form textarea{
+    border: 0.1;
+    border-color: #02010420;
+    margin: 10px,0;
+    background-color: #FFFAE7;
+    padding: 2%;
+    font-size: 16px;
+}
+form button{
+    padding: 2%;
+    background-color: #FF731D;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 120px;
+    margin :10px auto 0;
+}
+/* Footer */
+.footer {
+    background-color: #150050;
+    padding: 70px 0;
+}
+
+.self-container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    width: 33%;
+    /* padding: 0 15px; */
+    text-align: left;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+    padding-left: 30px;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    color: #bbbbbb;
+    text-decoration: none;
+    font-weight: 300;
+
+}
+
+.footer-col ul li a:hover {
+    transition: 0.3s;
+    color: #FF731D;
+    padding-left: 10px;
+}
+
+/* .social-links {
+    padding-left: 30px;
+} */
+
+/* .footer-col .social-links a {
+    font-size: 16px;
+    color: #bbbbbb;
+    text-decoration: none;
+    font-weight: 300;
+} */
+
+/* .social-links a i p::before {
+    color: #FF731D;
+    transition: 0.3s;
+}
+
+.social-links a i p:hover{
+    transition: 0.3s;
+    color: #FF731D;
+} */
+
+.last{
+    color: #bbbbbb;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.last:hover{
+    color: #FD841F;
+    transition: 0.3s;
+}
+
+.fix2{
+    font-size: 16px;
+}
+
+@media (max-width:700px) {
+    .fix2{
+        font-size: 12px;
+    }
+
+}
+
+.copyright{
+    width: 100%;
+    background-color: #150050;
+    color: #DFD3C3;
+    font-weight: 500;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+
+}
+.cpy{
+    font-weight: 500;
+    
+    margin-bottom: 1%;
+    justify-content: center;
+    padding: 0;
+}
