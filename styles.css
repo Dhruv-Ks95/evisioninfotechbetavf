@@ -102,7 +102,16 @@ body {
     }
 
 }
+/* canteen  */
+.canten{
+    height: 38rem;
+}
+@media (max-width:700px) {
+    .canten{
+        height: 20rem;
+    }
 
+}
 /* Contact us  */
 
 .selfcontainer{
