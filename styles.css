@@ -71,7 +71,7 @@ body {
     height: 100%;
     background-size: cover;
     background-position: center;
-    filter: blur(10px);
+    filter: blur(2px);
 }
 
 .carousel-bg-cust{
